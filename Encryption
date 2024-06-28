@@ -1,0 +1,13 @@
+Below methods are used to Encrypt and Decrypt.
+
+Encrypt :-
+UPISecurity.getPSPEncryptValue(String msg, String enc_key);
+
+Decrypt :-
+UPISecurity.getPSPDecryptValue(String msg, String enc_key);  
+
+Note:- 
+msg -->> Request Payload
+enc_key -->> Super Merchant Key
+
+And the SALT used for the same is Super Merchant Key. Which they have got during merchant on-boarding.
